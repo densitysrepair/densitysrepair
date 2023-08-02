@@ -1,16 +1,39 @@
-### Hi there 👋
+# S-Repair
 
-<!--
-**densitysrepair/densitysrepair** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Code release of ["From Minimum Change to Maximum Density: On Determining Near-Optimal S-Repair" (TKDE)](https://ieeexplore.ieee.org/abstract/document/10183830).
 
-Here are some ideas to get you started:
+Parameters
+----------
+The input and output of **Heuristic** and **Relaxation** algorithms are:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Method
+
+```
+setK(K);
+```
+
+Input:
+
+```
+int K;  // the number of considered neighbors 
+```
+
+Output
+
+```
+ArrayList<Integer> detectedRowIndexList
+```
+
+Citation
+----------
+If you use this code for your research, please consider citing:
+
+```
+@article{sun2023minimum,
+  title={From Minimum Change to Maximum Density: On Determining Near-Optimal S-Repair},
+  author={Sun, Yu and Song, Shaoxu and Yuan, Xiaojie},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2023},
+  publisher={IEEE}
+}
+```
